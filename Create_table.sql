@@ -1,1 +1,24 @@
-
+CREATE TABLE bank_marketing (
+    client_id INT AUTO_INCREMENT PRIMARY KEY,
+    age INT,
+    job VARCHAR(50),
+    marital VARCHAR(20),
+    education VARCHAR(30),
+    has_default VARCHAR(10),
+    housing_loan VARCHAR(10),
+    personal_loan VARCHAR(10),
+    contact_type VARCHAR(20),
+    month VARCHAR(10),
+    day_of_week VARCHAR(10),
+    call_duration INT,
+    campaign_contacts INT,
+    days_since_last_contact INT,
+    previous_contacts INT,
+    previous_outcome VARCHAR(20),
+    emp_var_rate DECIMAL(5,2),
+    cons_price_idx DECIMAL(8,3),
+    cons_conf_idx DECIMAL(6,2),
+    euribor3m DECIMAL(6,3),
+    nr_employed DECIMAL(10,1),
+    subscribed VARCHAR(5)
+);
